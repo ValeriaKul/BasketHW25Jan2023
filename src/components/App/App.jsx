@@ -102,10 +102,12 @@ function App() {
   function addRemoveProduct(e) {
     let newArray = [...products];
     newArray.forEach((el) => {
-      if (el.id === e.target.name) {
-        if (e.target.dataset.type === "increment") {
+      if (el.id == e.target.name) {
+        if (e.target.dataset.type == "increment") {
+          console.log('increment');
           el.count = el.count + 1;
         } else {
+          console.log('decrement');
           el.count -= 1;
         }
       }
