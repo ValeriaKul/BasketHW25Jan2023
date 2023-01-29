@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(-90deg, white, rgb(134, 151, 134));
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: #333;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.btn_buy {
+  font-size: 20px;
+  font-weight: 600;
+  height: 2em;
+  width: 90%;
+  color: rgb(244, 247, 244);
+  background: rgba(44, 170, 44, 0.844);
+  border: none;
+  border-radius: 5px;
+}
+
+.btn_buy:hover {
+  border: 3px solid green;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.basket {
+  margin: 0 10px;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 22px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 10px 5px 10px 5px  rgba(0, 0, 0, .5);
+  background-color: rgba(223, 223, 224, 0.901);
+}
+
+.basket  p {
+  margin: 1em;
+}
+
+.promoCode {
+  text-transform: uppercase;
+  margin: 0.2em;
+  width: 18em;
+  height: 3em;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn_apply {
+  border: none;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(223, 68, 68);
+  background-color: rgba(223, 223, 224, 0.901);
+}
+
+.promoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.total {
+  display: flex;
+
+}
+
+.priceDiscount {
+  font-weight: 600;
+}
