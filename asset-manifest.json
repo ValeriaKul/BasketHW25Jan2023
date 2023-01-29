@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BasketHW25Jan2023/static/css/main.ad51c7bb.css",
+    "main.js": "/BasketHW25Jan2023/static/js/main.3ea6a752.js",
+    "index.html": "/BasketHW25Jan2023/index.html",
+    "main.ad51c7bb.css.map": "/BasketHW25Jan2023/static/css/main.ad51c7bb.css.map",
+    "main.3ea6a752.js.map": "/BasketHW25Jan2023/static/js/main.3ea6a752.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad51c7bb.css",
+    "static/js/main.3ea6a752.js"
+  ]
+}
